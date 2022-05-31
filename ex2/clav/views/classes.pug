@@ -1,0 +1,10 @@
+  .w3-card-4.w3-margin
+    header(class="w3-container w3-teal")
+      h1 Lista de classes de nivel 1:
+             
+    .w3-container
+      ul
+        each d in data
+          li 
+            a(href='/classe/' + d.codigo)= d.codigo
+            span : #{d.titulo}
