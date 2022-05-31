@@ -1,0 +1,10 @@
+Exercicio 1
+dividi o json en dois fichiros array json
+
+mongoimport -d MAPA2022 -c cidade cidades.json --jsonArray
+mongoimport -d MAPA2022 -c ligacao ligacoes.json --jsonArray
+
+npm install
+npm start
+
+Exercicio 2
